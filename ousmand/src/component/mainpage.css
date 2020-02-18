@@ -1,0 +1,46 @@
+.presentationPic{
+    width: 100%;
+    margin: 2%;
+   
+}
+.presentationPicSecond{
+    width: 96%;
+    margin: 2%;
+   
+}
+.presentation{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: 90%;
+    background-color : rgb(235,90,51);
+    height: 50vh;
+    justify-content: center;
+    box-shadow: 7px 7px 2px 1px rgb(235,90,51, 0.7);
+    margin: 5%;
+    
+}
+.presentationSecond{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    width: 90%;
+    background-color : rgb(235,90,51);
+    height: 100%;
+    justify-content: center;
+    box-shadow: 7px 7px 2px 1px rgb(235,90,51, 0.7);
+   
+    
+}
+.mainpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.presentationText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
