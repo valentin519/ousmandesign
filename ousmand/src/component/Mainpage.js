@@ -20,7 +20,7 @@ class Mainpage extends Component {
           return(
     <div className= 'mainpage'>
         <Navbar/>
-        <Slide left>
+        
         <div className='presentation'>
             <Slide right>
                 <img className = 'presentationPic' src ='https://zupimages.net/up/20/08/0e9u.jpg' alt =''/>
@@ -36,7 +36,7 @@ class Mainpage extends Component {
                 <img className = 'presentationPic' src ='https://zupimages.net/up/20/07/g80i.jpg' alt =''/>
             </Slide>
         </div>
-        </Slide>
+    
         <Slide bottom>
         <div className='presentationSecond'>  
             <div className='presentationText'>

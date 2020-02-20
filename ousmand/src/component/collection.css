@@ -1,0 +1,64 @@
+.threePic{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: center;
+    
+}
+.threePic img{
+    margin:2%;
+    width: 35%;
+    margin-bottom: 0%;
+    filter: sepia(1);
+}
+.threePic img:hover{
+    margin:2%;
+    width: 35%;
+    margin-bottom: 0%;
+    filter: sepia(0);
+   border-radius: 15%;
+}
+.collectionPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.picAndCategory{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+.collectionCategory{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.collectionCategory p{
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.modalForWomen{
+    width: 95%;
+    height:auto;
+    background-color: rgb(235,90,51 , 0.8);;
+    z-index: 102;
+    margin-top: 10%;
+    position: absolute;
+    
+}
+.closeModal{
+    width: 5%;
+    margin-top: 15%;
+}
+.picCatalog img{
+    width: 30%;
+    margin: 1%;
+    border-radius: 15%;
+}
