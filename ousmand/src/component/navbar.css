@@ -2,14 +2,14 @@
 
 .navbar{
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     justify-content: center;
     margin: 2%;
     align-items: center;
     color: black;
     font-family: Satisfy;
     z-index: 100;
-    position: sticky;
+
     top: 0;
     
     
@@ -19,6 +19,12 @@
     text-decoration: none;
     color: black;
 }
+.navbarSelection:hover{
+    margin: 3%;
+    text-decoration: none;
+    color: rgb(235,90,51 , 1);
+    background-color: black;
+}
 .logoNavbar{
-    width: 30%;
+    width: 50%;
 }

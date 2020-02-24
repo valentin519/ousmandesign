@@ -30,38 +30,26 @@ class Collection extends Component {
                 <p>Nos créations</p>
                 <div className='picAndCategory'>
                     <div className='threePic'>
-                        <Slide right>                   
-                            <img className='' onClick={this.goFull} src='https://zupimages.net/up/20/08/abhi.jpg' alt =''/>
+                        <Slide right>
+                            <div className='category'>
+                            <img className='pic' onClick={this.goFull} src='https://zupimages.net/up/20/08/abhi.jpg' alt =''/>
+                            <p> Femme</p>
+                            </div>
                         </Slide>
                         <Slide bottom>
-                            <img className='' src='https://zupimages.net/up/20/08/06lq.jpg' alt =''/>
+                            <div className='category'> 
+                            <img className='centerPic' src='https://zupimages.net/up/20/08/06lq.jpg' alt =''/>
+                            <p> Homme</p>
+                            </div>
                         </Slide>
                         <Slide left>
-                            <img className='' src='https://zupimages.net/up/20/07/8210.png' alt =''/>
+                            <div className='category'>
+                            <img className='picRight' src='https://zupimages.net/up/20/07/8210.png' alt =''/>
+                            <p> Accéssoires</p>
+                            </div>
                         </Slide>
                     </div>
-                    <div className='collectionCategory'>
-                        <p> Femme</p>
-                        <p> Homme</p>
-                        <p> Accéssoires</p>
-                    </div>
                 </div>
-                {this.state.collectionWomen && ( 
-                    <Fade bottom>
-                <div className='modalForWomen'>
-                    <img className='closeModal' onClick={this.closeModal} src='https://zupimages.net/up/20/08/tleg.png' alt=''/>
-                     <div className='picCatalog'>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                         <img src='https://zupimages.net/up/20/07/zvqy.jpg' alt=''/>
-                     </div>
-
-                </div>
-                </Fade>
-                 ) }
             </div>
         )
     }

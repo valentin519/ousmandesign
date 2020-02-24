@@ -1,5 +1,5 @@
 .presentationPic{
-    width: 50%;
+    width: 100%;
     margin: 2%;
     border-radius: 5%;
    
@@ -15,9 +15,9 @@
     flex-direction: row;
     font-size: 10px;
     width: 90%;
-    height: 50vh;
-    justify-content: center;
+    height: auto;
     margin: 5%;
+    justify-content: center;
     
 }
 .presentationSecond{

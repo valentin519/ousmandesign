@@ -5,11 +5,17 @@
     justify-content: center;
     
 }
-.threePic img{
+.pic{
     margin:2%;
-    width: 35%;
+    width: 100%;
     margin-bottom: 0%;
     filter: sepia(1);
+}
+.picRight{
+    width: 100%;
+}
+.centerPic{
+    width: 20%;
 }
 .threePic img:hover{
     margin:2%;
@@ -28,7 +34,7 @@
 .picAndCategory{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     
     justify-content: center;
     margin-bottom: 5%;
@@ -44,15 +50,7 @@
     margin-top: 1%;
     margin-bottom: 2%;
 }
-.modalForWomen{
-    width: 95%;
-    height:auto;
-    background-color: rgb(235,90,51 , 0.8);;
-    z-index: 102;
-    margin-top: 10%;
-    position: absolute;
-    
-}
+
 .closeModal{
     width: 5%;
     margin-top: 15%;
@@ -61,4 +59,10 @@
     width: 30%;
     margin: 1%;
     border-radius: 15%;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
