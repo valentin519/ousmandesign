@@ -5,7 +5,7 @@ import Acceuil from './component/Acceuil';
 import Mainpage from './component/Mainpage';
 import TalkAboutUs from './component/TalkAboutUs';
 import Collection from './component/Collection';
-
+import Contact from './component/Contact';
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
           <Route path = '/mainpage' component={Mainpage}/>
           <Route path = '/media' component={TalkAboutUs}/>
           <Route path = '/collection' component={Collection}/>
+          <Route path = '/contact' component={Contact}/>
         </Switch>
       </div>
     );
