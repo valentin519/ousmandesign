@@ -34,9 +34,7 @@
     left: 0;
     z-index: -99;
     }
-/* .video-background img {
-    
-} */
+
 .video-foreground,
 .video-background iframe {
     position: absolute;
@@ -56,30 +54,30 @@
 
 .picCenter{
     position: absolute;
-    top: 1%;
+    top: 0%;
     z-index: 49;
-    left: 26%;
-    width: 50%;
+    left: 30%;
+    width: 40%;
 }
 .button{
     border: solid;
     border-radius: 50%;
-    border-color: black;
+    border-color: #D6AF26;
     position: absolute;
     bottom: 3%;
-    width : 15%;
+    width : 10%;
     font-size: 20px;
-    left: 40%;
-    color : white;
+    left: 42%;
+    color : #D6AF26;
     padding : 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #D6AF26;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     text-decoration: none;
 }
 .video-background img:hover{
-    filter: grayscale(0);
+    filter: sepia(0);
     -webkit-filter: sepia(0);
 }
 .load{

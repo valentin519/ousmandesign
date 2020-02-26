@@ -42,28 +42,25 @@ class Acceuil extends React.Component {
             return <Loading/>
         }
         return (
-            <div className ='filtreBackground'>
+            <div className='filtreBackground'>
                 <div className="video-background">
-                    <img className =' picLeft' src = 'https://zupimages.net/up/20/07/zvqy.jpg' />
+                    <img className='picLeft' src='https://zupimages.net/up/20/07/zvqy.jpg' alt='' />
                     <div className="video-foreground">
                         <YouTube
                             videoId="hqPLnWnLMZk"
                             opts={videoOptions}
-                            autoPlay= "autoplay"
+                            autoPlay="autoplay"
                             className="video-iframe"
-                            showInfo = 'false'
-                            controls = 'false'
+                            showInfo='false'
+                            controls='false'
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />
                     </div>
-
-                    <img className =' picRight' src = 'https://zupimages.net/up/20/07/0mjj.jpg' />
+                    <img className='picRight' src='/soie.jpg' alt='' />
                 </div>
                 <div>
-                <img className =' picCenter' src = '/ousmanlog.png' />
-
-                    
+                <img className='picCenter' src='/ousmanlog.png' alt='' />
                     <Link to='/mainpage' class="button">
                          <span class="text-hover">Découvrir</span>
                          <span class="text-base">Bienvenue</span>
