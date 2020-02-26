@@ -12,7 +12,7 @@ const Contact = () => {
                     <p className='mail'>mail@exemple.com</p>
                     <p>Ou via nos réseaux sociaux </p>
                     <div className='firtPicSocial'>
-                        <a href='https://www.facebook.com/profile.php?id=100012450273343' target='_blank'>
+                        <a href='https://www.facebook.com/ousman.design/?__tn__=%2Cd%2CP-R&eid=ARCrnlb0spvf2ZMfYcPZSjL0gUZb7vrsXwrmCdScWr_M9loSg7CDErHg4Md1DtCIDJptiMbXhtx0nwZ6' target='_blank'>
                         <LightSpeed left>
                             <img src='/facebook.png' alt='' />
                         </LightSpeed>
