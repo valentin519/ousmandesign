@@ -58,24 +58,25 @@
     position: absolute;
     top: 1%;
     z-index: 49;
-    left: 24%;
+    left: 26%;
     width: 50%;
 }
 .button{
     border: solid;
     border-radius: 50%;
-    border-color: #EB5A33;
+    border-color: black;
     position: absolute;
     bottom: 3%;
     width : 15%;
     font-size: 20px;
-    left: 42%;
+    left: 40%;
     color : white;
     padding : 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EB5A33;
+    background-color: #D6AF26;
+    text-decoration: none;
 }
 .video-background img:hover{
     filter: grayscale(0);

@@ -6,6 +6,9 @@ import Mainpage from './component/Mainpage';
 import TalkAboutUs from './component/TalkAboutUs';
 import Collection from './component/Collection';
 import Contact from './component/Contact';
+import CollectionWomen from './component/CollectionWomen';
+import CollectionMan from './component/CollectionMan';
+import CollectionBag from './component/CollectionBag';
 
 class App extends Component {
   render() {
@@ -17,6 +20,9 @@ class App extends Component {
           <Route path = '/media' component={TalkAboutUs}/>
           <Route path = '/collection' component={Collection}/>
           <Route path = '/contact' component={Contact}/>
+          <Route path ='/femme' component={CollectionWomen}/>
+          <Route path ='/homme' component={CollectionMan}/>
+          <Route path ='/accessoire' component={CollectionBag}/>
         </Switch>
       </div>
     );

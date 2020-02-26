@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: lobster;
 }
 
 
@@ -19,6 +20,6 @@
     margin-bottom: 2%;
 }
 .firstReportage p {
-    font-size: 12px;
+    font-size: 2em;
     
 }

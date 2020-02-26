@@ -52,7 +52,7 @@ class TalkAboutUs extends React.Component {
                     <div className= 'firstReportage'>
                         <YouTube
                             className='videoFrance3'
-                            videoId="7FEVboI0laU"
+                            videoId="YrWSS1bVrWM"
                             opts={videoOptions}
                             autoPlay= "autoplay"
                             showInfo = 'false'

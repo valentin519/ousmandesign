@@ -61,7 +61,7 @@ class Acceuil extends React.Component {
                     <img className =' picRight' src = 'https://zupimages.net/up/20/07/0mjj.jpg' />
                 </div>
                 <div>
-                <img className =' picCenter' src = 'https://zupimages.net/up/20/07/asgw.png' />
+                <img className =' picCenter' src = '/ousmanlog.png' />
 
                     
                     <Link to='/mainpage' class="button">
