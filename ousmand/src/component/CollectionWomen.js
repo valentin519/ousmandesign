@@ -32,7 +32,7 @@ const CollectionWomen = () => (
             </a>
             <a href="#_" class="overlay" id="femme4">
                 <img src="/femme4.jpg" alt="Plein écran"/>
-                <img src='/femme4-2.jpg'/>
+                <img src='/femme4-2.jpg' alt="Plein écran"/>
             </a>
 
             <a href="#femme5">
