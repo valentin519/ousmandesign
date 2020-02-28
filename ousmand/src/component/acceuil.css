@@ -85,9 +85,9 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
+    background-position: center;
     height: 100vh;
-    filter: grayscale(1);
-    background-image: url('https://zupimages.net/up/20/08/2q5v.jpg');
+    background-image: url('/photoloading.jpg');
 }
 
 .text-base{

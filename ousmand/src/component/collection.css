@@ -11,14 +11,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2%;
+    font-family: Lobster;
+    font-size: 1,6em;
+
 }
 .category img{
-    width: 40%;
+    width: 85%;
+    border-radius: 50%;
+}
+.category img:hover {
+    width: 84%;
+    border-radius: 45%;
+   
 }
 .picCategory{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 70%;
 }

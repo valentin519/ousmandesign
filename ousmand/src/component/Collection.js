@@ -12,15 +12,15 @@ const Collection = () => (
         <Navbar/>
         <div className='picCategory'>
             <div className='category'>
-                <Link  to='/femme'><img src='/femme.jpg' alt=''/></Link>
+                <Link  to='/femme'><img src='/femmecollec.jpg' alt=''/></Link>
                 <p>Femmes</p>
             </div>
             <div className='category'>
-                <Link to='/homme'>  <img src='/homme.jpg' alt='' /></Link>
+                <Link to='/homme'>  <img src='/hommecollec.jpg' alt='' /></Link>
                 <p>Hommes</p>
             </div>
             <div className='category'>
-                <Link to='/accessoire' ><img src='/sac.png' alt=''/></Link>
+                <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
                 <p>Accéssoires</p>
             </div>
         </div>

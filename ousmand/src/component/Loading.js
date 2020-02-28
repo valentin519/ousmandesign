@@ -8,7 +8,7 @@ const Loading = () => (
             <ReactLoading 
                 className='loading' 
                 type='bars'
-                color='#EB5A33'
+                color='#D6AF26'
              /> 
         
     </div>

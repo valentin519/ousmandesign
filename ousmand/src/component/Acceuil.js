@@ -44,7 +44,7 @@ class Acceuil extends React.Component {
         return (
             <div className='filtreBackground'>
                 <div className="video-background">
-                    <img className='picLeft' src='https://zupimages.net/up/20/07/zvqy.jpg' alt='' />
+                    <img className='picLeft' src='/celest.jpg' alt='' />
                     <div className="video-foreground">
                         <YouTube
                             videoId="hqPLnWnLMZk"
@@ -57,7 +57,7 @@ class Acceuil extends React.Component {
                             onEnd={this._onEnd}
                         />
                     </div>
-                    <img className='picRight' src='/soie.jpg' alt='' />
+                    <img className='picRight' src='/photoacceuil.jpg' alt='' />
                 </div>
                 <div>
                 <img className='picCenter' src='/ousmanlog.png' alt='' />
