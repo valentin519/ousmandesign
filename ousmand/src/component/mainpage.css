@@ -4,7 +4,7 @@
 
 
 .presentationPic{
-    width: 30%;
+    width: 150%;
     margin: 1%;
     border-radius: 5%;
    
@@ -47,7 +47,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 90%;
+    font-family: lobster;
+    font-size: 2em;
+}
+.presentationText2{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
     width: 90%;
     font-family: lobster;
     font-size: 2em;

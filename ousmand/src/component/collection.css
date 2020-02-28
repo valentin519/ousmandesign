@@ -73,4 +73,11 @@
   .picCollectionMen{
     width: 15%;
     margin: 2%;
-}   
+} 
+.picCollectionSac{
+    width: 22%;
+    margin: 2%;
+}
+.collectHomme{
+    height: 100vh;
+}

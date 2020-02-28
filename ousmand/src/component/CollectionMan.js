@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 const CollectionMan = () => (
     <div>
         <Navbar/>
-        <div>
+        <div className='collecHomme'>
             <a href="#homme1">
                     <img src="/homme1.jpg" alt="Vignette" className='picCollectionMen'/>
                 </a>

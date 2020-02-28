@@ -19,6 +19,27 @@ const CollectionBag = () => (
                 <img src="/echarpe2.jpg" alt="Plein écran"/>
                 <img src="/echarpe2-3.jpg" alt="Plein écran"/>
             </a>
+
+            <a href="#acces3">
+                 <img src="/sac1.png" alt="Vignette" className='picCollectionSac'/>
+            </a>
+            <a href="#_" class="overlay" id="acces3">
+                <img src="/sac1.png" alt="Plein écran"/>
+            </a>
+
+            <a href="#acces4">
+                 <img src="/sac2.png" alt="Vignette" className='picCollectionSac'/>
+            </a>
+            <a href="#_" class="overlay" id="acces4">
+                <img src="/sac2.png" alt="Plein écran"/>
+            </a>
+
+            <a href="#acces5">
+                 <img src="/sac3.png" alt="Vignette" className='picCollectionSac'/>
+            </a>
+            <a href="#_" class="overlay" id="acces5">
+                <img src="/sac3.png" alt="Plein écran"/>
+            </a>
         </div>
     </div>
 )
