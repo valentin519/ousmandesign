@@ -24,7 +24,7 @@ class TalkAboutUs extends React.Component {
         const videoOptions = {
             playerVars: {
                 autoplay: 0,
-                controls: 0,
+                controls: 1,
                 rel: 0,
                 showinfo: false
         }
@@ -40,7 +40,7 @@ class TalkAboutUs extends React.Component {
                                 opts={videoOptions}
                                 autoPlay="autoplay"
                                 showInfo='false'
-                                controls='false'
+                                controls='true'
                                 onReady={this._onReady}
                                 onEnd={this._onEnd}
                             />
@@ -56,7 +56,7 @@ class TalkAboutUs extends React.Component {
                             opts={videoOptions}
                             autoPlay="autoplay"
                             showInfo='false'
-                            controls='false'
+                            controls='true'
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />

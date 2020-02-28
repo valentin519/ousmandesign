@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import './collection.css';
 import { Link } from 'react-router-dom';
-
+import Fade from 'react-reveal/Fade';
  
 
 
@@ -12,15 +12,21 @@ const Collection = () => (
         <Navbar/>
         <div className='picCategory'>
             <div className='category'>
-                <Link  to='/femme'><img src='/femmecollec.jpg' alt=''/></Link>
+                <Fade left>
+                    <Link  to='/femme'><img src='/femmecollec.jpg' alt=''/></Link>
+                </Fade>
                 <p>Femmes</p>
             </div>
             <div className='category'>
-                <Link to='/homme'>  <img src='/hommecollec.jpg' alt='' /></Link>
+                <Fade bottom>
+                    <Link to='/homme'>  <img src='/hommecollec.jpg' alt='' /></Link>
+                </Fade>
                 <p>Hommes</p>
             </div>
             <div className='category'>
-                <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
+                <Fade right>
+                    <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
+                </Fade>
                 <p>Accéssoires</p>
             </div>
         </div>
