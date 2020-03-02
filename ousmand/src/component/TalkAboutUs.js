@@ -24,45 +24,45 @@ class TalkAboutUs extends React.Component {
         const videoOptions = {
             playerVars: {
                 autoplay: 0,
-                controls: 0,
+                controls: 1,
                 rel: 0,
                 showinfo: false
         }
     }
         return(
-            <div className ='talkaboutusPage'>
+            <div className='talkaboutusPage'>
                 <Navbar/>
-                <Slide right>
-                    <div className= 'firstReportage'>
-                        <YouTube
-                            className='videoFrance3'
-                            videoId="PDWTy6etUfY"
-                            opts={videoOptions}
-                            autoPlay= "autoplay"
-                            showInfo = 'false'
-                            controls = 'false'
-                            onReady={this._onReady}
-                            onEnd={this._onEnd}
-                        />
-                        <p>Reportage réalisé par France Champagne Ardennes</p>        
+                    <div className='firstReportage'>
+                        <Slide right>
+                            <YouTube
+                                className='videoFrance3'
+                                videoId="PDWTy6etUfY"
+                                opts={videoOptions}
+                                autoPlay="autoplay"
+                                showInfo='false'
+                                controls='true'
+                                onReady={this._onReady}
+                                onEnd={this._onEnd}
+                            />
+                            <p>Reportage réalisé par France 3 Champagne Ardenne</p>
+                        </Slide>        
                     </div>
-                </Slide>
                 <br/>
-                <Slide left>
-                    <div className= 'firstReportage'>
+                <div className='firstReportage'>
+                    <Slide left>
                         <YouTube
                             className='videoFrance3'
-                            videoId="7FEVboI0laU"
+                            videoId="YrWSS1bVrWM"
                             opts={videoOptions}
-                            autoPlay= "autoplay"
-                            showInfo = 'false'
-                            controls = 'false'
+                            autoPlay="autoplay"
+                            showInfo='false'
+                            controls='true'
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />
-                        <p>Concour des jeunes designers</p>        
-                    </div>
-                </Slide>        
+                        <p>Concours des Jeunes Designers Africains Francophones</p> 
+                    </Slide>       
+                </div>   
             </div>
         )
     }

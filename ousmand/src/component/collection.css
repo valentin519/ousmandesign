@@ -1,0 +1,84 @@
+
+.collectionPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    font-family: Lobster;
+    font-size: 1,6em;
+
+}
+.category img{
+    width: 85%;
+    border-radius: 50%;
+}
+.category img:hover {
+    width: 84%;
+    border-radius: 45%;
+   
+}
+.picCategory{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.picCollectionWomen{
+    width: 15%;
+    margin: 2%;
+}
+.picCollectionWomen1{
+    width: 17%;
+    margin: 2%;
+}
+
+
+
+.overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+  }
+  
+  .overlay img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin:2%;
+  }
+  .overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
+  }
+  .picCollectionMen{
+    width: 15%;
+    margin: 2%;
+} 
+.picCollectionSac{
+    width: 22%;
+    margin: 2%;
+}
+.collectHomme{
+    height: 100vh;
+}

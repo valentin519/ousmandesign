@@ -1,24 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
 
 .navbar{
     display: flex;
-    font-size: 18px;
+    font-size: 1.6em;
     justify-content: center;
-    margin: 2%;
+    
     align-items: center;
-    color: #EB5A33;
-    font-family: Satisfy;
+    color: black;
+    font-family: Damion;
     z-index: 100;
-    position: sticky;
+
     top: 0;
-    background-color: white;
+    
     
 }
 .navbarSelection{
-    margin: 3%;
+    margin: 2%;
     text-decoration: none;
-    color: #EB5A33;
+    color: black;
+}
+.navbarSelection:hover{
+    margin: 2%;
+    text-decoration: none;
+    color: #D6AF26;
+    
 }
 .logoNavbar{
-    width: 30%;
+    width: 40%;
 }

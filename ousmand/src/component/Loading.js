@@ -4,8 +4,12 @@ import './acceuil.css';
 
 const Loading = () => (
     
-    <div className= 'load'>
-            <ReactLoading className = 'loading' type= 'bars' color = '#EB5A33'/> 
+    <div className='load'>
+            <ReactLoading 
+                className='loading' 
+                type='bars'
+                color='#D6AF26'
+             /> 
         
     </div>
 )

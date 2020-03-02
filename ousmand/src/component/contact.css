@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+.contact p{
+    font-family: Lobster;
+    font-size: 1.5em;
+}
+
+.firstPicSocial{
+    display: flex;
+    flex-direction: row;
+}
+
+.secondPicSocial{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    
+}
+.contact img {
+    width: 10%;
+    margin: 2%;
+}
+
+.contact img:hover {
+    width: 11%;
+    margin: 1.5%;
+}
+.mail{
+    border: solid ;
+    width: 20%;
+    border-radius: 0%;
+}
+
+
