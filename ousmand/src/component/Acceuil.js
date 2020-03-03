@@ -1,9 +1,9 @@
 
 import React from 'react';
 import './acceuil.css';
-import YouTube from 'react-youtube';
 import Loading from './Loading';
 import { Link } from 'react-router-dom';
+import "/home/val/workspace/ousmandesign2/ousmand/node_modules/video-react/dist/video-react.css";
 
 
 
@@ -20,7 +20,7 @@ class Acceuil extends React.Component {
             this.setState({
                 loading: false
             })
-        },3000);
+        },4000);
     }
     _onReady(event) {
 
@@ -44,18 +44,14 @@ class Acceuil extends React.Component {
         return (
             <div className='filtreBackground'>
                 <div className="video-background">
-                    <img className='picLeft' src='/celest.jpg' alt='' />
+                    <img className='picLeft' src='/celestacceuil.jpg' alt='' />
                     <div className="video-foreground">
-                        <YouTube
-                            videoId="hqPLnWnLMZk"
-                            opts={videoOptions}
-                            autoPlay="autoplay"
-                            className="video-iframe"
-                            showInfo='false'
-                            controls='false'
-                            onReady={this._onReady}
-                            onEnd={this._onEnd}
-                        />
+                       <video autoplay loop > 
+                       <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
+                            <source className='videoacceuil' src="vidacceuil.mp4" type="video/mp4"/>
+                            
+                            
+                        </video>
                     </div>
                     <img className='picRight' src='/photoacceuil.jpg' alt='' />
                 </div>
