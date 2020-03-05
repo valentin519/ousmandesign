@@ -9,6 +9,7 @@ import Contact from './component/Contact';
 import CollectionWomen from './component/CollectionWomen';
 import CollectionMan from './component/CollectionMan';
 import CollectionBag from './component/CollectionBag';
+import CollectionTissu from './component/CollectionTissu';
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Route path='/femme' component={CollectionWomen}/>
           <Route path='/homme' component={CollectionMan}/>
           <Route path='/accessoire' component={CollectionBag}/>
+          <Route path='/tissu' component={CollectionTissu}/>
         </Switch>
       </div>
     );
