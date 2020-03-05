@@ -18,17 +18,17 @@
 
 }
 .category img{
-    width: 85%;
+    width: 55%;
     border-radius: 50%;
 }
 .category img:hover {
-    width: 84%;
+    width: 55%;
     border-radius: 45%;
    
 }
 .picCategory{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
@@ -81,4 +81,12 @@
 }
 .collectHomme{
     height: 100vh;
+}
+.hommeFemme{
+    display: flex;
+    flex-direction: row
+}
+.accessoireTissu{
+    display:flex;
+    flex-direction: row;
 }

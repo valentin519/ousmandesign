@@ -11,23 +11,33 @@ const Collection = () => (
     <div className='collectionPage'>
         <Navbar/>
         <div className='picCategory'>
-            <div className='category'>
-                <Fade left>
-                    <Link  to='/femme'><img src='/femmecollec.jpg' alt=''/></Link>
-                </Fade>
-                <p>Femmes</p>
+            <div className='hommeFemme'>
+                <div className='category'>
+                    <Fade left>
+                        <Link  to='/femme'><img src='/femmecollec.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Femmes</p>
+                </div>
+                <div className='category'>
+                    <Fade bottom>
+                        <Link to='/homme'>  <img src='/hommecollec.jpg' alt='' /></Link>
+                    </Fade>
+                    <p>Hommes</p>
+                </div>
             </div>
-            <div className='category'>
-                <Fade bottom>
-                    <Link to='/homme'>  <img src='/hommecollec.jpg' alt='' /></Link>
-                </Fade>
-                <p>Hommes</p>
-            </div>
-            <div className='category'>
-                <Fade right>
-                    <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
-                </Fade>
-                <p>Accéssoires</p>
+            <div className='accessoireTissu'>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
+                    </Fade>
+                    <p>Accéssoires</p>
+                </div>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/tissu' ><img src='/tissucate.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Tissus</p>
+                </div>
             </div>
         </div>
     </div>
