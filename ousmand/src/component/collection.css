@@ -18,11 +18,11 @@
 
 }
 .category img{
-    width: 85%;
+    width: 55%;
     border-radius: 50%;
 }
 .category img:hover {
-    width: 84%;
+    width: 55%;
     border-radius: 45%;
    
 }

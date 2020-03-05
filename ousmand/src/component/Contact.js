@@ -9,7 +9,7 @@ const Contact = () => {
             <Navbar/>
                 <div className='contact'>
                     <p>Vous pouvez nous joindre via cette adresse mail :</p>
-                    <p className='mail'>mail@exemple.com</p>
+                    <p className='mail'>contact@ousman-o.fashion</p>
                     <p>Ou via nos réseaux sociaux </p>
                     <div className='firtPicSocial'>
                         <a href='https://www.facebook.com/ousman.design/?__tn__=%2Cd%2CP-R&eid=ARCrnlb0spvf2ZMfYcPZSjL0gUZb7vrsXwrmCdScWr_M9loSg7CDErHg4Md1DtCIDJptiMbXhtx0nwZ6' target='_blank'>

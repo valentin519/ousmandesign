@@ -7,13 +7,7 @@ class Mainpage extends Component {
     constructor(props) {
         super();
      
-        this.state = {
-          isFull: false,
-        };
-      }
-     
-      goFull = () => {
-        this.setState({ isFull: true });
+        this.state = {};
       }
       render(){
           return(
@@ -26,7 +20,7 @@ class Mainpage extends Component {
                                 <p>
                                     Conception, fabrication et vente de vêtements, d'accessoires utilisant des matières premières africaines, amérindiennes, sud-américaines (coton biologique, lin, cuirs tannés végétalement, laine artisanale d’Alpaga…), soutenant ainsi le travail d’artisans et de coopératives de femmes dans différents pays et s’inspirant des coupes européennes pour répondre aux besoins d’une clientèle active, féminine et masculine, européenne et nord-américaine.
                                     Nous sommes également engagés dans la création et la réalisation d’événements destinés à promouvoir notre production et plus largement le travail de création de jeunes designers n’ayant pas accès aux mêmes opportunités (visibilité médias, ouverture aux marchés européens et nord-américains…).
-                                    Nous sommes à l'origine du "Concours des Jeunes Designers de Mode Francophones" avec un premier défilé prévu en automne 2019.
+                                    Nous sommes à l'origine du "Concours des Jeunes Designers de Mode Francophones" avec un premier défilé réalisé en automne 2019. En préparation, la seconde édition de cet évenement avec un défilé de cloture le 17 septembre 2020 au Palais du Tau à Reims.
                                 </p> 
                                 
                             </Slide>
