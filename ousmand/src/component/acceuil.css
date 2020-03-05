@@ -17,7 +17,21 @@
     z-index: 50;
     position: absolute;
     right : 0px;
-    filter: sepia(10)
+    filter: sepia(1)
+}
+.picLeft:hover{
+    width: 30%;
+    height: 100%;
+    z-index: 50;
+    position: absolute;
+    filter: sepia(0)
+}
+.picRight:hover{
+    width: 30%;
+    height: 100%;
+    z-index: 50;
+    position: absolute;
+    filter: sepia(0)
 }
   .video-background {
       display: flex;
