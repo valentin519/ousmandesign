@@ -28,7 +28,7 @@
 }
 .picCategory{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 70%;
@@ -81,4 +81,12 @@
 }
 .collectHomme{
     height: 100vh;
+}
+.hommeFemme{
+    display: flex;
+    flex-direction: row
+}
+.accessoireTissu{
+    display:flex;
+    flex-direction: row;
 }
