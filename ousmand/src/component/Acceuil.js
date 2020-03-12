@@ -3,7 +3,6 @@ import React from 'react';
 import './acceuil.css';
 import Loading from './Loading';
 import { Link } from 'react-router-dom';
-import "/home/val/workspace/ousmandesign2/ousmand/node_modules/video-react/dist/video-react.css";
 
 
 
@@ -44,7 +43,7 @@ class Acceuil extends React.Component {
         return (
             <div className='filtreBackground'>
                 <div className="video-background">
-                    <img className='picLeft' src='/celestacceuil.jpg' alt='' />
+                    <img className='picLeft' src='/celestmont.jpg' alt='' />
                     <div className="video-foreground">
                        <video autoPlay muted loop width='80%' height='100%'> 
                        <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
@@ -53,7 +52,7 @@ class Acceuil extends React.Component {
                             
                         </video>
                     </div>
-                    <img className='picRight' src='/photoacceuil.jpg' alt='' />
+                    <img className='picRight' src='/mont.jpg' alt='' />
                 </div>
                 <div>
                 <img className='picCenter' src='/ousmanlog.png' alt='' />
