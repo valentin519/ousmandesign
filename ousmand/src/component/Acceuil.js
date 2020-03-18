@@ -54,7 +54,7 @@ class Acceuil extends React.Component {
                     </div>
                     <img className='picRight' src='/mont.jpg' alt='' />
                 </div>
-                <div>
+                <div  className='logoButton'>
                 <img className='picCenter' src='/ousmanlog.png' alt='' />
                     <Link to='/mainpage' class="button">
                          <span class="text-hover">Découvrir</span>

@@ -1,3 +1,5 @@
+
+@media only screen and (min-width : 800px){
 .trioPicAndMovie{
     display : flex;
     flex-direction: row;
@@ -109,3 +111,69 @@
     align-items: center;
     justify-content: center;
  }
+}
+@media only screen and (max-width: 600px){
+    .video-background{
+       display: none;
+    }
+    .filtreBackground{
+        background-image: url('/wallmobile.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+    }
+    .logoButton{
+        display:flex;
+       
+    }
+    .text-base{
+        opacity:1;
+     }
+     
+     .text-hover{
+        display:none;
+     }
+     
+     .button:hover span.text-base{
+        opacity:0;
+     }
+    
+     .button:hover span.text-hover{
+        display:flex;
+        position:absolute;
+        align-items: center;
+        justify-content: center;
+     }
+     .button{
+        border: solid;
+        border-radius: 50%;
+        border-color: #D6AF26;
+        position: absolute;
+        bottom: 3%;
+        width : 30%;
+        font-size: 20px;
+        left: 30%;
+        color : #D6AF26;
+        padding : 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+        text-decoration: none;
+    }
+    .picCenter{
+        display:none;
+    }
+    .load{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-image: url('/photoloading.jpg');
+    }
+    
+    
+}
