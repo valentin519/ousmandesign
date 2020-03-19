@@ -29,35 +29,37 @@ class Acceuil extends React.Component {
         event.target.playVideo();
     }
     render() {
-        const videoOptions = {
-            playerVars: {
-                autoplay: 1,
-                controls: 0,
-                rel: 0,
-                showinfo: false
-            }
-        }
         if(this.state.loading){
             return <Loading/>
         }
         return (
-            <div className='filtreBackground'>
-                <div className="video-background">
-                    <img className='picLeft' src='/celestmont.jpg' alt='' />
-                    <div className="video-foreground">
-                       <video autoPlay muted loop width='80%' height='100%'> 
-                       <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
-                            <source className='videoacceuil' src="vidacceuil.mp4" type="video/mp4"/>
-                            
-                            
-                        </video>
+            <div>
+                <div className='filtreBackground'>
+                    <div className="video-background">
+                        <img className='picLeft' src='/celestmont.jpg' alt='' />
+                        <div className="video-foreground">
+                            <video autoPlay muted loop width='80%' height='100%'> 
+                                    <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
+                                    <source className='videoacceuil' src="vidacceuil.mp4" type="video/mp4"/>  
+                            </video>
+                        </div>
+                        <img className='picRight' src='/mont.jpg' alt='' />
                     </div>
-                    <img className='picRight' src='/mont.jpg' alt='' />
+                    <div  className='logoButton'>
+                    <img className='picCenter' src='/ousmanlog.png' alt='' />
+                        <Link to='/mainpage' class="button">
+                            <span class="text-hover">Découvrir</span>
+                            <span class="text-base">Bienvenue</span>
+                        </Link>
+                    </div>
                 </div>
-                <div  className='logoButton'>
-                <img className='picCenter' src='/ousmanlog.png' alt='' />
+                <div className='versionMobile'>
+                <img className='picCenterMobile' src='/ousmanlog.png' alt='' />
+                    <video autoPlay muted loop width='100%' height='100%'> 
+                        <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
+                        <source className='videoacceuil' src="vidacceuil.mp4" type="video/mp4"/>  
+                    </video>
                     <Link to='/mainpage' class="button">
-                         <span class="text-hover">Découvrir</span>
                          <span class="text-base">Bienvenue</span>
                     </Link>
                 </div>
