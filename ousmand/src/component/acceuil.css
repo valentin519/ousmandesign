@@ -9,6 +9,11 @@
     align-items: center;
     justify-content: center;
 }
+.filtreBackground{
+    width: 100%;
+    height: auto;
+    z-index: 5;
+}
 .picLeft {
     width: 30%;
     height: 100%;
