@@ -38,7 +38,7 @@ class Acceuil extends React.Component {
                     <div className="video-background">
                         <img className='picLeft' src='/celestmont.jpg' alt='' />
                         <div className="video-foreground">
-                            <video autoPlay muted loop width='80%' height='100%'> 
+                            <video autoPlay muted loop width='100%' height='100%'> 
                                     <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
                                     <source className='videoacceuil' src="vidacceuil.mp4" type="video/mp4"/>  
                             </video>

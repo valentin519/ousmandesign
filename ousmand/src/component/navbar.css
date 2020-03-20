@@ -57,14 +57,18 @@
     align-items: center;
     width:100%;
     height: 20%;
-    background-color : rgba(214,175,38,0.85);
+    background-color : rgba(214,175,38,0.60);
     z-index: 50;
+   
 }
 .navbarSelection{
     margin: 5%;
     text-decoration: none;
     color: black;
-    font-size:1em
+    font-size:1.2em;
+    padding: 1%;
+    color:  black;
+
 }
 
 }
