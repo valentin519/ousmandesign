@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
 
 .collectionPage{
     display: flex;
@@ -89,4 +90,58 @@
 .accessoireTissu{
     display:flex;
     flex-direction: row;
+}
+.tissuCategorie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cotonSelection{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url('/cotonselectedvf.jpg');
+    margin: 2%;
+    font-family: Damion;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+.dentelleSelection{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url('/dentelleselected.jpg');
+    margin: 2%;
+    font-family: Damion;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+.soieSelection{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url('/soieselectd.jpg');
+    margin: 2%;
+    font-family: Damion;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+.voileSelection{
+    width: 20%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-image: url('/voileselected.jpg');
+    margin: 2%;
+    font-family: Damion;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5em;
 }
