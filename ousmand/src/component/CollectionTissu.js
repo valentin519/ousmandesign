@@ -87,6 +87,32 @@ class CollectionTissu extends React.Component {
                        </div>
                        </Fade>
                         )}
+                         {this.state.dentelle && (
+                              <Fade right>
+                       <div>
+                        <a href="#tissu1">
+                            <img src="/homme1.jpg" alt="Vignette" className='picCollectionWomen1'/>
+                            </a>
+                            <a href="#_" class="overlay" id="tissu1">
+                                <img src="/tissu1.jpg" alt="Plein écran"/>
+                            </a>
+
+                            <a href="#tissu2">
+                            <img src="/homme2.jpg" alt="Vignette" className='picCollectionWomen1'/>
+                            </a>
+                            <a href="#_" class="overlay" id="tissu2">
+                                <img src="/tissu2.jpg" alt="Plein écran"/>
+                            </a>
+
+                            <a href="#tissu3">
+                            <img src="/tissu3.jpg" alt="Vignette" className='picCollectionWomen1'/>
+                            </a>
+                            <a href="#_" class="overlay" id="tissu3">
+                                <img src="/tissu3.jpg" alt="Plein écran"/>
+                            </a>
+                       </div>
+                       </Fade>
+                        )}
                        </div>
         )
     }
