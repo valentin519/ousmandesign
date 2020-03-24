@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 
-
+@media only screen and (min-width : 601px){
 
 .presentationPic{
     width: 150%;
@@ -59,4 +59,40 @@
     width: 90%;
     font-family: lobster;
     font-size: 2em;
+}
+}
+@media only screen and (max-width: 600px){
+    .presentationText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .presentationPic{
+        width: 80%;
+        border-radius: 5%;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: row;
+        font-size: 1em;
+        width: 100%;
+        height: auto;
+        margin: 2%;
+        justify-content: center;
+        align-items: center; 
+        font-family: lobster;
+    }
+    .mainpage{
+        font-family: lobster;
+        font-size: 1em;
+        margin: 2%;
+    }
+    .presentationPicSecond{
+        width: 80%;
+        margin: 2%;
+        border-radius: 3%;
+       
+    }
 }

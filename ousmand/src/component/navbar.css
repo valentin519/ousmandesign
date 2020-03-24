@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+@media only screen and (min-width : 601px){
 
-.navbar{
+.navbarDesktop{
     display: flex;
     font-size: 1.6em;
     justify-content: center;
-    
     align-items: center;
     color: black;
     font-family: Damion;
     z-index: 100;
-
     top: 0;
-    
-    
+}
+.navbarMobile{
+    display: none;
 }
 .navbarSelection{
     margin: 2%;
@@ -27,4 +27,48 @@
 }
 .logoNavbar{
     width: 70%;
+}
+}
+@media only screen and (max-width : 600px){
+.navbarDesktop{
+    display: none;;
+}
+.logoNavbar{
+    width: 80%;
+}
+.burger{
+    width:10%;
+    margin-right: 5%;
+}
+.navbarMobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbarBurger{
+    position:fixed;
+    top:0%;
+    right:0%;
+    display: flex;
+    flex-direction:row;
+    font-family: Damion;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 20%;
+    background-color : rgba(214,175,38,0.60);
+    z-index: 50;
+   
+}
+.navbarSelection{
+    margin: 5%;
+    text-decoration: none;
+    color: black;
+    font-size:1.2em;
+    padding: 1%;
+    color:  black;
+
+}
+
 }
