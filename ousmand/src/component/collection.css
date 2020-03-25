@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
-
+@media only screen and (min-width : 601px){
 .collectionPage{
     display: flex;
     justify-content: center;
@@ -35,11 +35,7 @@
     width: 70%;
 }
 .picCollectionWomen{
-    width: 15%;
-    margin: 2%;
-}
-.picCollectionWomen1{
-    width: 17%;
+    width: 20%;
     margin: 2%;
 }
 
@@ -73,7 +69,7 @@
     cursor: default;
   }
   .picCollectionMen{
-    width: 15%;
+    width: 20%;
     margin: 2%;
 } 
 .picCollectionSac{
@@ -98,7 +94,7 @@
     align-items: center;
 }
 .cotonSelection{
-    width: 20%;
+    width: 25%;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -107,10 +103,11 @@
     font-family: Damion;
     color: white;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
+
 .dentelleSelection{
-    width: 20%;
+    width: 25%;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -119,10 +116,10 @@
     font-family: Damion;
     color: white;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .soieSelection{
-    width: 20%;
+    width: 25%;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -131,10 +128,10 @@
     font-family: Damion;
     color: white;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .voileSelection{
-    width: 20%;
+    width: 25%;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -143,5 +140,162 @@
     font-family: Damion;
     color: white;
     border-radius: 50%;
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+}
+@media only screen and (max-width: 600px){
+    collectionPage{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .category{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        font-family: Lobster;
+        font-size: 1,6em;
+    
+    }
+    .category img{
+        width: 55%;
+        border-radius: 50%;
+    }
+    .category img:hover {
+        width: 55%;
+        border-radius: 45%;
+       
+    }
+    .picCategory{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .picCollectionWomen{
+        width: 20%;
+        margin: 2%;
+    }
+    
+    
+    
+    .overlay {
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        visibility: hidden;
+      }
+      
+      .overlay img{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        margin:2%;
+      }
+      .overlay:target {
+        visibility: visible;
+        outline: none;
+        cursor: default;
+      }
+      .picCollectionMen{
+        width: 20%;
+        margin: 2%;
+    } 
+    .picCollectionSac{
+        width: 22%;
+        margin: 2%;
+    }
+    .collectHomme{
+        height: 100vh;
+    }
+    .hommeFemme{
+        display: flex;
+        flex-direction: row
+    }
+    .accessoireTissu{
+        display:flex;
+        flex-direction: row;
+    }
+    .tissuCategorie{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .cotonSelection{
+        width:80px;
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+        background-image: url('/cotonselectedvf.jpg');
+        margin: 2%;
+        font-family: Damion;
+        color: white;
+        border-radius: 50%;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dentelleSelection{
+        width: 80px;
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+        background-image: url('/dentelleselected.jpg');
+        margin: 2%;
+        font-family: Damion;
+        color: white;
+        border-radius: 50%;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .soieSelection{
+        width: 80px;
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+        background-image: url('/soieselectd.jpg');
+        margin: 2%;
+        font-family: Damion;
+        color: white;
+        border-radius: 50%;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .voileSelection{
+        width: 80px;
+        background-size: cover;
+        background-position: center;
+        height: 80px;
+        background-image: url('/voileselected.jpg');
+        margin: 2%;
+        font-family: Damion;
+        color: white;
+        border-radius: 50%;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 }

@@ -29,7 +29,8 @@ class Navbar extends React.Component {
             <Link className='navbarSelection' to='/media'>Ils parlent de nous</Link>
         </div>
         <div className='navbarMobile'>
-            <Link to='/' ><img className='logoNavbar' src='/ousmanlog.png' alt=''/></Link>
+        <Link to='/' ><img className='logoNavbar' src='/ousmanlog.png' alt=''/></Link>
+
             {this.state.isMenuVisible ? '' :
             <img className='burger' src='/burgericon.png' alt=''onClick={this.toggleMenuVisible}/>
             }

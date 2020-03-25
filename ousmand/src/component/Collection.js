@@ -34,7 +34,7 @@ const Collection = () => (
                 </div>
                 <div className='category'>
                     <Fade right>
-                        <Link to='/tissu' ><img src='/tissucate.jpg' alt=''/></Link>
+                        <Link to='/robe' ><img src='/categorieRobe.jpg' alt=''/></Link>
                     </Fade>
                     <p>Robe de mariée</p>
                 </div>
