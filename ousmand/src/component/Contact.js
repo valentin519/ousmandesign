@@ -32,7 +32,7 @@ const Contact = () => {
                         <img src='/linkedin.png' alt='' />
                     </LightSpeed>
                     </a>
-                    <a href='https://www.youtube.com/channel/UCdILUpnBMmWChnu9LCF0hMQ' target="_blank" >
+                    <a href='https://www.youtube.com/channel/UCfHSIBAkED6_ZSCrWB8z7Gw' target="_blank" >
                     <LightSpeed bottom>
                         <img src='/youtube.png' alt=' ' />
                     </LightSpeed>

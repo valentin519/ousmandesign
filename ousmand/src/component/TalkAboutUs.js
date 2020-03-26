@@ -36,7 +36,7 @@ class TalkAboutUs extends React.Component {
                         <Slide right>
                             <YouTube
                                 className='videoFrance3'
-                                videoId="PDWTy6etUfY"
+                                videoId="mtRIU-4CJkE"
                                 opts={videoOptions}
                                 autoPlay="autoplay"
                                 showInfo='false'
@@ -44,7 +44,7 @@ class TalkAboutUs extends React.Component {
                                 onReady={this._onReady}
                                 onEnd={this._onEnd}
                             />
-                            <p>Reportage réalisé par France 3 Champagne Ardenne</p>
+                            <p>Reportage réalisé par France 3 Champagne Ardenne.</p>
                         </Slide>        
                     </div>
                 <br/>
@@ -52,7 +52,7 @@ class TalkAboutUs extends React.Component {
                     <Slide left>
                         <YouTube
                             className='videoFrance3'
-                            videoId="YrWSS1bVrWM"
+                            videoId="lx2ZmdWX-eA"
                             opts={videoOptions}
                             autoPlay="autoplay"
                             showInfo='false'
@@ -60,7 +60,22 @@ class TalkAboutUs extends React.Component {
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />
-                        <p>Concours des Jeunes Designers Africains Francophones</p> 
+                        <p>Concours des Jeunes Designers Africains Francophones.</p> 
+                    </Slide>       
+                </div> 
+                <div className='firstReportage'>
+                    <Slide left>
+                        <YouTube
+                            className='videoFrance3'
+                            videoId="BpoXYwJTRNg"
+                            opts={videoOptions}
+                            autoPlay="autoplay"
+                            showInfo='false'
+                            controls='true'
+                            onReady={this._onReady}
+                            onEnd={this._onEnd}
+                        />
+                        <p>Défilé du 10 mars 2020 au Palais d'Iéna, Paris.</p> 
                     </Slide>       
                 </div>   
             </div>
