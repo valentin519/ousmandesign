@@ -139,12 +139,6 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="coton14">
                                 <img src="/coton14.jpg" alt="Plein écran"/>
                             </a>
-                            <a href="#coton15">
-                            <img src="/coton15.jpg" alt="Vignette" className='picCollectionWomen'/>
-                            </a>
-                            <a href="#_" class="overlay" id="coton15">
-                                <img src="/coton15.jpg" alt="Plein écran"/>
-                            </a>
                             <a href="#coton16">
                             <img src="/coton16.jpg" alt="Vignette" className='picCollectionWomen'/>
                             </a>

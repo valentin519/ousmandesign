@@ -88,7 +88,7 @@ const CollectionWomen = () => (
             <a href="#_" class="overlay" id="femme14">
                 <img src="/femme14.jpg" alt="Plein écran"/>
             </a>
-            <a href="#femme6">
+            <a href="#femme15">
                  <img src="/femme15.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
             <a href="#_" class="overlay" id="femme15">
@@ -118,7 +118,7 @@ const CollectionWomen = () => (
             <a href="#_" class="overlay" id="femme19">
                 <img src="/femme19.jpg" alt="Plein écran"/>
             </a>
-            <a href="#femme6">
+            <a href="#femme20">
                  <img src="/femme20.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
             <a href="#_" class="overlay" id="femme20">
