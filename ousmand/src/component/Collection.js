@@ -28,7 +28,7 @@ const Collection = () => (
             <div className='accessoireTissu'>
                 <div className='category'>
                     <Fade right>
-                        <Link to='/accessoire' ><img src='/saccollec.png' alt=''/></Link>
+                        <Link to='/accessoire' ><img src='/saccate.jpg' alt=''/></Link>
                     </Fade>
                     <p>Accéssoires</p>
                 </div>
