@@ -142,6 +142,12 @@ const CollectionWomen = () => (
             <a href="#_" class="overlay" id="femme23">
                 <img src="/femme23.jpg" alt="Plein écran"/>
             </a>
+            <a href="#femme24">
+                 <img src="/femme24.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="femme24">
+                <img src="/femme24.jpg" alt="Plein écran"/>
+            </a>
         </div>
     </div>
 )

@@ -145,7 +145,30 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="coton16">
                                 <img src="/coton16.jpg" alt="Plein écran"/>
                             </a>
-            
+                            <a href="#coton17">
+                            <img src="/coton17.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="coton17">
+                                <img src="/coton17.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#coton18">
+                            <img src="/coton18.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="coton18">
+                                <img src="/coton18.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#coton19">
+                            <img src="/coton19.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="coton19">
+                                <img src="/coton19.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#coton20">
+                            <img src="/coton20.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="coton20">
+                                <img src="/coton20.jpg" alt="Plein écran"/>
+                            </a>
                        </div>
                        </Fade>
                         )}
@@ -170,7 +193,32 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="dentelle3">
                                 <img src="/dentelle3.jpg" alt="Plein écran"/>
                             </a>
-
+                            <a href="#dentelle4">
+                            <img src="/dentelle4.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="dentelle4">
+                                <img src="/dentelle4.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#dentelle5">
+                            <img src="/dentelle5.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="dentelle5">
+                                <img src="/dentelle5.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#dentelle6">
+                            <img src="/dentelle6.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="dentelle6">
+                                <img src="/dentelle6.jpg" alt="Plein écran"/>
+                                <img src="/dentelle8.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#dentelle9">
+                            <img src="/dentelle9.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="dentelle9">
+                                <img src="/dentelle9.jpg" alt="Plein écran"/>
+                                <img src="/dentelle7.jpg" alt="Plein écran"/>
+                            </a>
                         </div>    
                        </Fade>
                         )}
@@ -280,7 +328,42 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="soie6">
                                 <img src="/soie6.jpg" alt="Plein écran"/>
                             </a>
-
+                            <a href="#soie7">
+                            <img src="/soie7.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie7">
+                                <img src="/soie7.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie8">
+                            <img src="/soie8.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie8">
+                                <img src="/soie8.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie9">
+                            <img src="/soie9.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie9">
+                                <img src="/soie9.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie10">
+                            <img src="/soie10.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie10">
+                                <img src="/soie10.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie11">
+                            <img src="/soie11.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie11">
+                                <img src="/soie11.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie12">
+                            <img src="/soie12.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie12">
+                                <img src="/soie12.jpg" alt="Plein écran"/>
+                            </a>
                         </div>    
                        </Fade>
                         )}

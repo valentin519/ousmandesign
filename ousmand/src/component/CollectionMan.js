@@ -32,7 +32,7 @@ const CollectionMan = () => (
                     <img src="/homme4.jpg" alt="Plein écran"/>
             </a>
             <a href="#homme5">
-                    <img src="/homme3.jpg" alt="Vignette" className='picCollectionMen'/>
+                    <img src="/homme5.jpg" alt="Vignette" className='picCollectionMen'/>
                 </a>
                 <a href="#_" class="overlay" id="homme5">
                     <img src="/homme5.jpg" alt="Plein écran"/>

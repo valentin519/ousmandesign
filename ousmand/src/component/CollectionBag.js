@@ -89,6 +89,18 @@ const CollectionBag = () => (
             <a href="#_" class="overlay" id="sac18">
                 <img src="/sac18.jpg" alt="Plein écran"/>
             </a>
+            <a href="#sac19">
+                 <img src="/sac19.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="sac19">
+                <img src="/sac19.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#sac20">
+                 <img src="/sac20.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="sac20">
+                <img src="/sac20.jpg" alt="Plein écran"/>
+            </a>
         </div>
     </div>
 )
