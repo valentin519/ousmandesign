@@ -40,7 +40,7 @@ class CollectionTissu extends React.Component {
 	}
     render(){
         return(
-            <div>
+            <div className='tissu'>
                 <Navbar/>
                     <div className='tissuCategorie'>
                         <div onClick={this.toggleCotonVisible} className='cotonSelection'><p>Coton Bio</p></div>
