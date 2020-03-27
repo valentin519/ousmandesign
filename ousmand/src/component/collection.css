@@ -238,10 +238,10 @@
         align-items: center;
     }
     .cotonSelection{
-        width:80px;
+        width:60px;
         background-size: cover;
         background-position: center;
-        height: 80px;
+        height: 90px;
         background-image: url('/cotonselectedvf.jpg');
         margin: 2%;
         font-family: Damion;
@@ -254,10 +254,10 @@
     }
     
     .dentelleSelection{
-        width: 80px;
+        width: 60px;
         background-size: cover;
         background-position: center;
-        height: 80px;
+        height: 90px;
         background-image: url('/dentelleselected.jpg');
         margin: 2%;
         font-family: Damion;
@@ -269,10 +269,10 @@
         align-items: center;
     }
     .soieSelection{
-        width: 80px;
+        width: 60px;
         background-size: cover;
         background-position: center;
-        height: 80px;
+        height: 90px;
         background-image: url('/soieselectd.jpg');
         margin: 2%;
         font-family: Damion;
@@ -284,10 +284,10 @@
         align-items: center;
     }
     .voileSelection{
-        width: 80px;
+        width: 60px;
         background-size: cover;
         background-position: center;
-        height: 80px;
+        height: 90px;
         background-image: url('/voileselected.jpg');
         margin: 2%;
         font-family: Damion;
