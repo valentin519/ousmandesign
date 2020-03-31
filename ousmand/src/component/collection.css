@@ -142,9 +142,16 @@
     border-radius: 50%;
     font-size: 1.3em;
 }
+.pagne hr{
+    color: #D6AF26;
+    width: 70%;
+}
+.pagne p{
+    font-family: Damion;
+}
 }
 @media only screen and (max-width: 600px){
-    collectionPage{
+    .collectionPage{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -300,5 +307,12 @@
 }
 .tissu{
     height: auto;
+}
+.pagne hr{
+    color: #D6AF26;
+    width: 70%;
+}
+.pagne p{
+    font-family: Damion;
 }
 }
