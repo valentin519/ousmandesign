@@ -158,8 +158,8 @@ class CollectionTissu extends React.Component {
                                 <img src="/coton18.jpg" alt="Plein écran"/>
                             </a>
                             <div className='pagne'>
-                            <hr/>
-                            <p>Pagne Wax</p>
+                            <img className='barre' src='/file1.png' alt=''/>
+                            <p>Pagnes Wax</p>
                         </div>
                             <a href="#coton19">
                             <img src="/coton19.jpg" alt="Vignette" className='picCollectionWomen'/>
