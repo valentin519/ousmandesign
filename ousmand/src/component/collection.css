@@ -145,9 +145,12 @@
 .pagne hr{
     color: #D6AF26;
     width: 70%;
+    border-color: #D6AF26;
+    background-color: #D6AF26;
 }
 .pagne p{
     font-family: Damion;
+    font-size: 1.5em;
 }
 }
 @media only screen and (max-width: 600px){
@@ -311,8 +314,11 @@
 .pagne hr{
     color: #D6AF26;
     width: 70%;
+    border-color: #D6AF26;
+    background-color: #D6AF26;
 }
 .pagne p{
     font-family: Damion;
+    font-size: 1.5em;
 }
 }
