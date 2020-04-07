@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+
 @media only screen and (min-width : 601px){
 .picAtelierPortrait{
     width: 25%;
@@ -7,7 +9,23 @@
     width: 45%;
     margin: 2%;
 }
-
+.acceuilAtelier{
+    width: 60%;
+    height: 100%;
+    background-image: url('/atelier3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: Damion;
+    font-size: 2em;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
+}
 
 }
 

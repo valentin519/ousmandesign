@@ -151,12 +151,6 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="coton17">
                                 <img src="/coton17.jpg" alt="Plein écran"/>
                             </a>
-                            <a href="#coton18">
-                            <img src="/coton18.jpg" alt="Vignette" className='picCollectionWomen'/>
-                            </a>
-                            <a href="#_" class="overlay" id="coton18">
-                                <img src="/coton18.jpg" alt="Plein écran"/>
-                            </a>
                             <div className='pagne'>
                             <img className='barre' src='/file1.png' alt=''/>
                             <p>Pagnes Wax</p>
@@ -302,6 +296,30 @@ class CollectionTissu extends React.Component {
                             <a href="#_" class="overlay" id="voile12">
                                 <img src="/voile12.jpg" alt="Plein écran"/>
                             </a>
+                            <a href="#voile13">
+                            <img src="/voile13.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="voile13">
+                                <img src="/voile13.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#voile14">
+                            <img src="/voile14.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="voile14">
+                                <img src="/voile14.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#voile15">
+                            <img src="/voile15.jpg" alt="Vignette" className='picCollectionWomen2'/>
+                            </a>
+                            <a href="#_" class="overlay" id="voile15">
+                                <img src="/voile15.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#voile16">
+                            <img src="/voile16.jpg" alt="Vignette" className='picCollectionWomen2'/>
+                            </a>
+                            <a href="#_" class="overlay" id="voile16">
+                                <img src="/voile16.jpg" alt="Plein écran"/>
+                            </a>
                         </div>    
                        </Fade>
                         )}
@@ -379,6 +397,42 @@ class CollectionTissu extends React.Component {
                             </a>
                             <a href="#_" class="overlay" id="soie12">
                                 <img src="/soie12.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie13">
+                            <img src="/soie13.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie13">
+                                <img src="/soie13.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie14">
+                            <img src="/soie14.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie14">
+                                <img src="/soie14.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie15">
+                            <img src="/soie15.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie15">
+                                <img src="/soie15.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie16">
+                            <img src="/soie16.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie16">
+                                <img src="/soie16.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie17">
+                            <img src="/soie17.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie17">
+                                <img src="/soie17.jpg" alt="Plein écran"/>
+                            </a>
+                            <a href="#soie18">
+                            <img src="/soie18.jpg" alt="Vignette" className='picCollectionWomen'/>
+                            </a>
+                            <a href="#_" class="overlay" id="soie18">
+                                <img src="/soie18.jpg" alt="Plein écran"/>
                             </a>
                         </div>    
                        </Fade>

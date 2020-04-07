@@ -42,6 +42,10 @@
     width: 20%;
     margin: 2%;
 }
+.picCollectionWomen2{
+    width: 40%;
+    margin:2%
+}
 
 
 
@@ -198,7 +202,10 @@
         margin: 2%;
     }
     
-    
+    .picCollectionWomen2{
+        width: 40%;
+        margin:2%
+    }
     
     .overlay {
         position: fixed;
