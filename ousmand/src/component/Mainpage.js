@@ -40,7 +40,7 @@ class Mainpage extends Component {
                                     Ousmane apporte de l'Afrique Sub-Saharienne couleurs, culture et traditions que l'on retrouve dans ses vêtements (en éditions limitées) et ses accessoires uniques. Plutôt que des murs, Ousmane OUEDRAOGO bâtit des ponts entre les hommes, les continents. Il nous invite au voyage à la découverte des Autres... Suivons-le!
                                 </p>
                             </div>
-                            <img className='presentationPicSecond' src='https://zupimages.net/up/20/08/e62p.jpg' alt=''  />          
+                            <img className='presentationPicSecond' src='/mainpage.jpg' alt=''  />          
                             </Slide>
                     </div>
                 </div>
