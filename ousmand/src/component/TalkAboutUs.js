@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import YouTube from 'react-youtube';
 import './talkaboutus.css';
 import Slide from 'react-reveal/Slide';
+import Footer from './Footer';
 
 
 class TalkAboutUs extends React.Component {
@@ -77,7 +78,8 @@ class TalkAboutUs extends React.Component {
                         />
                         <p>Défilé du 10 mars 2020 au Palais d'Iéna, Paris.</p> 
                     </Slide>       
-                </div>   
+                </div> 
+                <Footer/>  
             </div>
         )
     }
