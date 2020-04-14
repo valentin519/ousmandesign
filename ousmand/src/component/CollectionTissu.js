@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Fade from 'react-reveal/Fade';
-import './collection.css'
+import './collection.css';
+import Footer from './Footer';
 
 class CollectionTissu extends React.Component {
     constructor(props) {
@@ -480,6 +481,7 @@ class CollectionTissu extends React.Component {
                         </div>    
                        </Fade>
                         )}
+                        <Footer/>
                        </div>
         )
     }

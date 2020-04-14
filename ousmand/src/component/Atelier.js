@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import './atelier.css';
 import Fade from 'react-reveal/Fade';
+import Footer from './Footer';
 class Atelier extends React.Component {
     constructor(props) {
         super(props)
@@ -147,6 +148,7 @@ class Atelier extends React.Component {
                         <img src="/atelier26.jpg" alt="Plein écran"/>
                     </a>
                 </div>
+                <Footer/>
             </div>
             )       
     }
