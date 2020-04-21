@@ -8,7 +8,7 @@ const Footer = () => (
                 <p>SARL au capital social de 10 000,00Euros</p>
             </div>
             <div className='ousman'>
-                <p>20 rue Henry IV 51100 Reims</p>            
+                <p>20 rue Henri IV 51100 Reims</p>            
                 <p>Dirécteur Artistique : Ousmane OUEDRAOGO</p>
             </div>
         <div className='ovh'>
@@ -23,7 +23,7 @@ const Footer = () => (
             <p>
                 Siège social : 2 rue Kellermann - 59100 Roubaix - France 
             </p>
-            <p>Site crée par : <a href='https://www.linkedin.com/in/valentin-julien-422b77193'>Valentin JULIEN</a><img src='/linkedin.png'/></p>
+            <p>Site créé par : <a href='https://www.linkedin.com/in/valentin-julien-422b77193'>Valentin JULIEN</a><img src='/linkedin.png'/></p>
         </div>       
     </div>
 )
