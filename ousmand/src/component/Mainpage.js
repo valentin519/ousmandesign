@@ -44,7 +44,7 @@ class Mainpage extends Component {
                             <img className='presentationPicSecond' src='/mainpage.jpg' alt=''  />          
                             </Slide>
                     </div>
-                    <Footer/>
+                    
                 </div>
 )}}
 
