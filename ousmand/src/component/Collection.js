@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import './collection.css';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
- 
+ import Footer from './Footer';
 
 
 
@@ -40,6 +40,7 @@ const Collection = () => (
                 </div>
             </div>
         </div>
+        <Footer/>
     </div>
 )
 

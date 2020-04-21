@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import './contact.css';
 import LightSpeed from 'react-reveal/LightSpeed';
+import Footer from './Footer';
 
 const Contact = () => {
     return(
@@ -39,6 +40,7 @@ const Contact = () => {
                     </a>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
