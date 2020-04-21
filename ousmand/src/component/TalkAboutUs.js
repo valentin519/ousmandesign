@@ -79,7 +79,7 @@ class TalkAboutUs extends React.Component {
                         <p>Défilé du 10 mars 2020 au Palais d'Iéna, Paris.</p> 
                     </Slide>       
                 </div> 
-                <Footer/>  
+                  
             </div>
         )
     }

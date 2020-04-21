@@ -23,7 +23,7 @@ const CollectionWomen = () => (
             </a>
 
             <a href="#femme3">
-                 <img src="/femme3.jpg" alt="Vignette" className='picCollectionWomen'/>
+                 <img src="/femme3-2.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
             <a href="#_" class="overlay" id="femme3">
                 <img src="/femme3.jpg" alt="Plein écran"/>

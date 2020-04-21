@@ -148,7 +148,7 @@ class Atelier extends React.Component {
                         <img src="/atelier26.jpg" alt="Plein écran"/>
                     </a>
                 </div>
-                <Footer/>
+                
             </div>
             )       
     }
