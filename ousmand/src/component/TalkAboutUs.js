@@ -91,7 +91,7 @@ class TalkAboutUs extends React.Component {
                             onReady={this._onReady}
                             onEnd={this._onEnd}
                         />
-                        <p>Interview par Meriem Belazouz :Parcours et implication sociale d'Ousmane O pendant la pandémie.</p> 
+                        <p>Interview par Meriem Belazouz :Parcours et implication sociale d'Ousman O pendant la pandémie.</p> 
                     </Slide>       
                 </div> 
             </div>
