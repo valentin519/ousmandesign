@@ -244,14 +244,14 @@ class CollectionTissu extends React.Component {
                             <a href="#dentelle6">
                             <img src="/dentelle8.jpg" alt="Vignette" className='picCollectionWomen'/>
                             </a>
-                            <a href="#_" class="overlay" id="dentelle6">
+                            <a href="#_" class="overlay2" id="dentelle6">
                                 <img src="/dentelle6.jpg" alt="Plein écran"/>
                                 <img src="/dentelle8.jpg" alt="Plein écran"/>
                             </a>
                             <a href="#dentelle9">
                             <img src="/dentelle7.jpg" alt="Vignette" className='picCollectionWomen'/>
                             </a>
-                            <a href="#_" class="overlay" id="dentelle9">
+                            <a href="#_" class="overlay2" id="dentelle9">
                                 <img src="/dentelle9.jpg" alt="Plein écran"/>
                                 <img src="/dentelle7.jpg" alt="Plein écran"/>
                             </a>
