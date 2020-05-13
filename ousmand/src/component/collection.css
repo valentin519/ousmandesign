@@ -41,15 +41,33 @@
 .picCollectionWomen{
     width: 20%;
     margin: 2%;
+    border: solid;
+    border-color: #D6AF26;
 }
 .picCollectionWomen2{
     width: 40%;
-    margin:2%
+    margin:2%;
+    border: solid;
+    border-color: #D6AF26;
 }
 
 
 
 .overlay {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+  }
+  .overlay2 {
     position: fixed;
     z-index: 99;
     top: 0;
@@ -71,7 +89,19 @@
     height: auto;
     margin:2%;
   }
+  .overlay2 img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin:2%;
+  }
   .overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
+  }
+  .overlay2:target {
     visibility: visible;
     outline: none;
     cursor: default;
@@ -79,10 +109,14 @@
   .picCollectionMen{
     width: 20%;
     margin: 2%;
+    border: solid;
+    border-color: #D6AF26;
 } 
 .picCollectionSac{
     width: 22%;
     margin: 2%;
+    border: solid;
+    border-color: #D6AF26;
 }
 .collectHomme{
     height: 100vh;
@@ -161,6 +195,47 @@
     font-size: 1.7em;
     margin:0;
 }
+.accesSelection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2em;
+    justify-content:center;
+}
+.accesSelection p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.noeudButton{
+    background:url('/fondnoeud.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 12vw;
+    height: 15vh;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
+}
+.sacButton{
+    background:url('/fondsac.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 12vw;
+    height: 15vh;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black 1px -1px;;
+}
+
 }
 @media only screen and (max-width: 600px){
     .collectionPage{
@@ -362,5 +437,17 @@
 .barre{
     width: 70%;
     margin:0;
+}
+.accesSelection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.2em;
+    justify-content:center;
+}
+.accesSelection p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 }

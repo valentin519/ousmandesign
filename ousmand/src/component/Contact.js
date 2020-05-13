@@ -13,12 +13,12 @@ const Contact = () => {
                     <p className='mail'>contact@ousman-o. fashion</p>
                     <p>Ou via nos réseaux sociaux </p>
                     <div className='firtPicSocial'>
-                        <a href='https://www.facebook.com/ousman.design/?__tn__=%2Cd%2CP-R&eid=ARCrnlb0spvf2ZMfYcPZSjL0gUZb7vrsXwrmCdScWr_M9loSg7CDErHg4Md1DtCIDJptiMbXhtx0nwZ6' target='_blank'>
+                        <a href='https://fr-fr.facebook.com/OusmanFashion/' target='_blank'>
                         <LightSpeed left>
                             <img src='/facebook.png' alt='' />
                         </LightSpeed>
                         </a>
-                        <a href='https://www.instagram.com/ousman_design/?hl=fr' target="_blank">
+                        <a href='https://www.instagram.com/ousman_o_fashion/' target="_blank">
                         <LightSpeed top>
                             <img src='/insta.png' alt=''/>
                         </LightSpeed>

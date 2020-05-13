@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navbar from './Navbar';
 import './mainpage.css';
 import Slide from 'react-reveal/Slide';
-import Footer from './Footer'
+
 
 class Mainpage extends Component {
     constructor(props) {
@@ -43,7 +43,7 @@ class Mainpage extends Component {
                             </div>
                             <img className='presentationPicSecond' src='/mainpage.jpg' alt=''  />          
                             </Slide>
-                    </div>                  
+                    </div>        
                 </div>
 )}}
 

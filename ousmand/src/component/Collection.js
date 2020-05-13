@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import './collection.css';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
- import Footer from './Footer';
 
 
 
@@ -24,13 +23,25 @@ const Collection = () => (
                     </Fade>
                     <p>Hommes</p>
                 </div>
-            </div>
-            <div className='accessoireTissu'>
                 <div className='category'>
                     <Fade right>
                         <Link to='/accessoire' ><img src='/saccollect.jpg' alt=''/></Link>
                     </Fade>
                     <p>Accéssoires</p>
+                </div>
+            </div>
+            <div className='accessoireTissu'>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/blouse' ><img src='/blousecollec.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Blouse</p>
+                </div>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/masque' ><img src='/masque2.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Masque</p>
                 </div>
                 <div className='category'>
                     <Fade right>
