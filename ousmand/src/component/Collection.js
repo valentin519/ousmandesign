@@ -24,13 +24,25 @@ const Collection = () => (
                     </Fade>
                     <p>Hommes</p>
                 </div>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/accessoire' ><img src='/saccollect.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Accéssoires</p>
+                </div>
             </div>
             <div className='accessoireTissu'>
                 <div className='category'>
                     <Fade right>
-                        <Link to='/accessoire' ><img src='/saccate.jpg' alt=''/></Link>
+                        <Link to='/blouse' ><img src='/saccollect.jpg' alt=''/></Link>
                     </Fade>
-                    <p>Accéssoires</p>
+                    <p>Blouse</p>
+                </div>
+                <div className='category'>
+                    <Fade right>
+                        <Link to='/masque' ><img src='/saccollect.jpg' alt=''/></Link>
+                    </Fade>
+                    <p>Masque</p>
                 </div>
                 <div className='category'>
                     <Fade right>
@@ -39,8 +51,7 @@ const Collection = () => (
                     <p>Robe de mariée</p>
                 </div>
             </div>
-        </div>
-        
+        </div>      
     </div>
 )
 

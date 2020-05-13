@@ -481,7 +481,7 @@ class CollectionTissu extends React.Component {
                         </div>    
                        </Fade>
                         )}
-                        <Footer/>
+                        
                        </div>
         )
     }

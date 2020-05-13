@@ -5,6 +5,13 @@ const CollectionBag = () => (
     <div>
         <Navbar/>
         <div>
+        <a href="#sac21">
+                 <img src="/sac21.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="sac21">
+                <img src="/sac21.jpg" alt="Plein écran"/>
+                <img src="/sac21-2.jpg" alt="Plein écran"/>
+            </a>
         <a href="#sac1">
                  <img src="/sac1.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>

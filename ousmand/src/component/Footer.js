@@ -5,7 +5,7 @@ const Footer = () => (
     <div className='footer'>
             <div className='ousman'>
                 <p>Ousman Design </p>
-                <p>SARL au capital social de 10 000,00Euros</p>
+                <p>SARL au capital social de 10.000Euros</p>
             </div>
             <div className='ousman'>
                 <p>20 rue Henri IV 51100 Reims</p>            

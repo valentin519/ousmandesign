@@ -12,6 +12,8 @@ import CollectionBag from './component/CollectionBag';
 import CollectionTissu from './component/CollectionTissu';
 import Atelier from './component/Atelier';
 import CollectionRobe from './component/CollectionRobe';
+import CollectionBlouse from './component/CollectionBlouse';
+import CollectionMasque from './component/CollectionMasque';
 
 class App extends Component {
   render() {
@@ -29,6 +31,8 @@ class App extends Component {
           <Route path='/tissu' component={CollectionTissu}/>
           <Route path='/atelier' component={Atelier}/>
           <Route path='/robe' component={CollectionRobe}/>
+          <Route path='/blouse' component={CollectionBlouse}/>
+          <Route path='/masque' component={CollectionMasque}/>
         </Switch>
       </div>
     );

@@ -79,7 +79,21 @@ class TalkAboutUs extends React.Component {
                         <p>Défilé du 10 mars 2020 au Palais d'Iéna, Paris.</p> 
                     </Slide>       
                 </div> 
-                  
+                <div className='firstReportage'>
+                    <Slide left>
+                        <YouTube
+                            className='videoFrance3'
+                            videoId="S1XpxlQSlZQ"
+                            opts={videoOptions}
+                            autoPlay="autoplay"
+                            showInfo='false'
+                            controls='true'
+                            onReady={this._onReady}
+                            onEnd={this._onEnd}
+                        />
+                        <p>Interview par Meriem Belazouz :Parcours et implication sociale d'Ousman O pendant la pandémie.</p> 
+                    </Slide>       
+                </div> 
             </div>
         )
     }
