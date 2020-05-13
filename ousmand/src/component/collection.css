@@ -410,4 +410,16 @@
     width: 70%;
     margin:0;
 }
+.accesSelection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.2em;
+    justify-content:center;
+}
+.accesSelection p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 }
