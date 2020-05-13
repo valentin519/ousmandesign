@@ -147,8 +147,7 @@ class Atelier extends React.Component {
                     <a href="#_" class="overlay" id="atelier26">
                         <img src="/atelier26.jpg" alt="Plein écran"/>
                     </a>
-                </div>
-               
+                </div>         
             </div>
             )       
     }

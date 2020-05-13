@@ -22,21 +22,21 @@ const CollectionMan = () => (
             <a href="#homme3">
                     <img src="/homme3.jpg" alt="Vignette" className='picCollectionMen'/>
                 </a>
-                <a href="#_" class="overlay" id="homme3">
+                <a href="#_" class="overlay2" id="homme3">
                     <img src="/homme3.jpg" alt="Plein écran"/>
                     <img src="/homme3-2.jpg" alt="Plein écran"/>
             </a>
             <a href="#homme4">
                     <img src="/homme4-2.jpg" alt="Vignette" className='picCollectionMen'/>
                 </a>
-                <a href="#_" class="overlay" id="homme4">
+                <a href="#_" class="overlay2" id="homme4">
                     <img src="/homme4-2.jpg" alt="Plein écran"/>
                     <img src="/homme4.jpg" alt="Plein écran"/>
             </a>
             <a href="#homme5">
                     <img src="/homme5.jpg" alt="Vignette" className='picCollectionMen'/>
                 </a>
-                <a href="#_" class="overlay" id="homme5">
+                <a href="#_" class="overlay2" id="homme5">
                     <img src="/homme5.jpg" alt="Plein écran"/>
                     <img src="/homme5-2.jpg" alt="Plein écran"/>
 

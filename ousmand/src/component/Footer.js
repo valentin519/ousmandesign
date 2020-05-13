@@ -23,7 +23,7 @@ const Footer = () => (
             <p>
                 Siège social : 2 rue Kellermann - 59100 Roubaix - France 
             </p>
-            <p>Site crée par : <a href='https://www.linkedin.com/in/valentin-julien-422b77193'>Valentin JULIEN</a><img src='/linkedin.png'/></p>
+            <p>Site créé par : <a href='https://www.linkedin.com/in/valentin-julien-422b77193'>Valentin JULIEN</a><img src='/linkedin.png'/></p>
         </div>       
     </div>
 )

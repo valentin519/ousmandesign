@@ -1,4 +1,7 @@
-Options -MultiViews
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.html [QSA,L]
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.ousman-o.fashion/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} !^www\.ousman-o\.fashion [NC]
+RewriteRule ^(.*)$ https://www.ousman-o.fashion/$1 [R=301,L]

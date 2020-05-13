@@ -39,8 +39,7 @@ const Collection = () => (
                     <p>Robe de mariée</p>
                 </div>
             </div>
-        </div>
-       
+        </div>      
     </div>
 )
 
