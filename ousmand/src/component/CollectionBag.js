@@ -1,9 +1,36 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-const CollectionBag = () => (
+class CollectionBag extends React.Component{
+    constructor(props) {
+        super(props)
+        this.state = {
+            sac: false,
+            noeud: false
+        }
+        this.toggleSacVisible=this.toggleSacVisible.bind(this);
+        this.toggleNoeudVisible=this.toggleNoeudVisible.bind(this);
+    }
+    toggleSacVisible() {
+		this.setState(prevState => {
+			return { sac: true, noeud: false};
+		});
+    }
+    toggleNoeudVisible() {
+		this.setState(prevState => {
+			return { sac: false, noeud: true};
+		});
+    }
+    render(){
+        return(
+
     <div>
         <Navbar/>
+        <div className='accesSelection'>
+                <p onClick={this.toggleSacVisible}>Sac</p>
+                <p onClick={this.toggleNoeudVisible}>Noeud papillon</p>
+        </div>
+        {this.state.sac && 
         <div>
         <a href="#sac21">
                  <img src="/sac21.jpg" alt="Vignette" className='picCollectionWomen'/>
@@ -108,8 +135,14 @@ const CollectionBag = () => (
             <a href="#_" class="overlay" id="sac20">
                 <img src="/sac20.jpg" alt="Plein écran"/>
             </a>
-        </div>
+        </div>}
+        {this.state.noeud &&
+            <div>
+                <p>bonjour</p>
+            </div>
+        }
     </div>
-)
+        )}
+}
 
 export default CollectionBag;
