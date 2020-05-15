@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 class Acceuil extends React.Component {
     constructor(props) {
         super(props)
@@ -36,7 +37,7 @@ class Acceuil extends React.Component {
             <div>
                 <div className='filtreBackground'>
                     <div className="video-background">
-                        <img className='picLeft' src='/celestmont.jpg' alt='' />
+                        <img className='picLeft' src='/celestmont.jpg' alt='Robe Designer Africain' />
                         <div className="video-foreground">
                             <video autoPlay muted loop width='100%' height='100%'> 
                                     <source className='videoacceuil' src="vidacceuil.webm" type="video/webm"/>
