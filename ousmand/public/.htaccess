@@ -5,3 +5,10 @@ RewriteRule ^(.*)$ https://www.ousman-o.fashion/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} !^www\.ousman-o\.fashion [NC]
 RewriteRule ^(.*)$ https://www.ousman-o.fashion/$1 [R=301,L]
+
+RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]

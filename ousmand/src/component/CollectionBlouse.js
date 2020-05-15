@@ -54,7 +54,7 @@ const CollectionBlouse = () => (
             <a href="#_" class="overlay" id="blouse8">
                 <img src="/blouse8.jpg" alt="Plein écran"/>
             </a>
-            <a href="#blouse6">
+            <a href="#blouse9">
                  <img src="/blouse9.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
             <a href="#_" class="overlay" id="blouse9">
