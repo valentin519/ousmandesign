@@ -94,6 +94,21 @@ class TalkAboutUs extends React.Component {
                         <p>Interview par Meriem Belazouz :Parcours et implication sociale d'Ousman O pendant la pandémie.</p> 
                     </Slide>       
                 </div> 
+                <div className='firstReportage'>
+                    <Slide left>
+                        <YouTube
+                            className='videoFrance3'
+                            videoId="S9Ejpw4I0xo"
+                            opts={videoOptions}
+                            autoPlay="autoplay"
+                            showInfo='false'
+                            controls='true'
+                            onReady={this._onReady}
+                            onEnd={this._onEnd}
+                        />
+                        <p>Coulisse du défilé au Palais d'Iéna à Paris le 10 mars 2020.</p> 
+                    </Slide>       
+                </div> 
             </div>
         )
     }

@@ -24,6 +24,25 @@ const CollectionMasque = () => (
             <a href="#_" class="overlay" id="masque26">
                 <img src="/masque26.jpg" alt="Plein écran"/>
             </a>
+            <a href="#masque11">
+                 <img src="/masque11.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque11">
+                <img src="/masque11.jpg" alt="Plein écran"/>
+            </a>
+            
+            <a href="#masque13">
+                 <img src="/masque13.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque13">
+                <img src="/masque13.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#masque36">
+                 <img src="/masque36.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque36">
+                <img src="/masque36.jpg" alt="Plein écran"/>
+            </a>
             <a href="#masque30">
                  <img src="/masque30.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
@@ -41,6 +60,12 @@ const CollectionMasque = () => (
             </a>
             <a href="#_" class="overlay" id="masque32">
                 <img src="/masque32.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#masque34">
+                 <img src="/masque34.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque34">
+                <img src="/masque34.jpg" alt="Plein écran"/>
             </a>
             <a href="#masque33">
                  <img src="/masque33.jpg" alt="Vignette" className='picCollectionWomen'/>
@@ -202,26 +227,27 @@ const CollectionMasque = () => (
             <a href="#_" class="overlay" id="masque2">
                 <img src="/masque2.jpg" alt="Plein écran"/>
             </a>
-            <a href="#masque11">
-                 <img src="/masque11.jpg" alt="Vignette" className='picCollectionWomen'/>
-            </a>
-            <a href="#_" class="overlay" id="masque11">
-                <img src="/masque11.jpg" alt="Plein écran"/>
-            </a>
-            
-            <a href="#masque13">
-                 <img src="/masque13.jpg" alt="Vignette" className='picCollectionWomen'/>
-            </a>
-            <a href="#_" class="overlay" id="masque13">
-                <img src="/masque13.jpg" alt="Plein écran"/>
-            </a>
+           
             <a href="#masque25">
                  <img src="/masque25.jpg" alt="Vignette" className='picCollectionWomen'/>
             </a>
             <a href="#_" class="overlay" id="masque25">
                 <img src="/masque25.jpg" alt="Plein écran"/>
             </a>
-          
+         
+            <a href="#masque35">
+                 <img src="/masque35.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque35">
+                <img src="/masque35.jpg" alt="Plein écran"/>
+            </a>
+         
+            <a href="#masque37">
+                 <img src="/masque37.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="masque37">
+                <img src="/masque37.jpg" alt="Plein écran"/>
+            </a>
         </div>    </div>
 )
 

@@ -126,6 +126,24 @@ const CollectionBlouse = () => (
             <a href="#_" class="overlay" id="blouse20">
                 <img src="/blouse20.jpg" alt="Plein écran"/>
             </a>
+            <a href="#blouse21">
+                 <img src="/blouse21.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="blouse21">
+                <img src="/blouse21.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#blouse22">
+                 <img src="/blouse22.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="blouse22">
+                <img src="/blouse22.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#blouse23">
+                 <img src="/blouse23.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay" id="blouse23">
+                <img src="/blouse23.jpg" alt="Plein écran"/>
+            </a>
         </div>
     </div>
 )
