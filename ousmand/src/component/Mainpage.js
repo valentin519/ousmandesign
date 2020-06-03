@@ -16,16 +16,18 @@ class Mainpage extends Component {
                 <div className='mainpage'>
                     <Navbar/>
                     <h1>À PROPOS</h1> 
-                     
+                    <h2>Une vie au service de la mode, des autres, de l'excellence.</h2> 
                     <div className='presentation'>
                    
                         <div className='presentationText'>
                             <Slide top>
-                                <img className='presentationPic' src='https://zupimages.net/up/20/07/g80i.jpg' alt=''/>
-                                <div className='pragraphe'>
-                                <h2>Une vie au service de la mode, des autres, de l'excellence.</h2> 
-                                   
-                                    <h3>La mode au-delà des frontières.</h3>
+                            
+                            <img className='presentationPic' src='https://zupimages.net/up/20/07/g80i.jpg' alt=''/> 
+
+                                <div className='presentationText2'>
+
+                                <h3>La mode au-delà des frontières.</h3>
+
                                     <p>
                                     Derrière la signature « <strong>Ousman O.</strong> », un jeune designer burkinabé-malien, récemment installé en France, porteur d’un « <strong>Passeport Talent </strong> » octroyé par l’État Français : <strong>Ousmane Ouedraogo</strong>, qui a débuté dans la mode comme <strong>mannequin </strong>(de 17 à 24 ans) puis est devenu <strong>styliste</strong>. Il a eu l’occasion de présenter ses créations lors de défilés (résidence de l’ambassadeur de France à Ouagadougou au Burkina Faso, dans plusieurs autres capitales africaines, européennes (Oslo, Copenhague, Paris) et nord-américaines.
                                     </p> 
@@ -33,7 +35,7 @@ class Mainpage extends Component {
                             </Slide>
                         </div>
                     </div>
-                   
+
                     <div className='presentationSecond'> 
                         <Slide bottom> 
                             <div className='presentationText2'>

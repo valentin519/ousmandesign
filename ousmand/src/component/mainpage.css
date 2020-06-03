@@ -4,8 +4,8 @@
 @media only screen and (min-width : 601px){
 
 .presentationPic{
-    width: 150%;
-    margin: 1%;
+    width: 25%;
+    margin: 2%;
     border-radius: 5%;
    
 }
@@ -15,11 +15,18 @@
 .mainpage h2{
     font-family: lobster;
     font-size: 1.7em;
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+.mainpage h3{
+    font-family: lobster;
+    font-size: 1.2em;
 }
 .paragraphe{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: justify;
+    width: 50%;
 }
 .presentationPicSecond{
     width: 96%;
@@ -53,6 +60,16 @@
     align-items: center;
     justify-content: center;
 }
+.mainpage strong{
+    color: black;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+
+}
+.mainpage strong:hover{
+    color: white;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    font-size: 1.4em;
+}
 .presentationText{
     display: flex;
     justify-content: center;
@@ -60,7 +77,7 @@
     flex-direction: row;
     width: 90%;
     font-family: lobster;
-    font-size: 1.7em;
+    font-size: 1.2em;
     text-align: justify;
 }
 .presentationText2{
@@ -68,11 +85,11 @@
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    width: 50%;
+    width: 25%;
     font-family: lobster;
-    font-size: 1.7em;
+    font-size: 1.2em;
     text-align: justify;
-    margin:1%;
+    margin:2%;
 }
 
 }
