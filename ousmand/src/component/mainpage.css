@@ -4,9 +4,10 @@
 @media only screen and (min-width : 601px){
 
 .presentationPic{
-    width: 25%;
+    width: 15%;
     margin: 2%;
     border-radius: 5%;
+    height: 100%;
    
 }
 .mainpage h1{
@@ -39,7 +40,6 @@
     flex-direction: row;
     width: 100%;
     height: auto;
-    margin: 2%;
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -75,9 +75,9 @@
     justify-content: center;
 
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     font-family: lobster;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
 }
 .presentationText2{
@@ -85,11 +85,11 @@
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    width: 25%;
+    width: 40%;
     font-family: lobster;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
-    margin:2%;
+    margin:1%;
 }
 
 }
