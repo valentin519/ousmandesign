@@ -8,6 +8,7 @@
     margin: 2%;
     border-radius: 5%;
     height: 100%;
+    margin-right: 10%;
    
 }
 .mainpage h1{
@@ -15,13 +16,15 @@
 }
 .mainpage h2{
     font-family: lobster;
-    font-size: 1.7em;
+    font-size: 1.9em;
     color: white;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 .mainpage h3{
     font-family: lobster;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    margin:0;
+    white-space: normal;
 }
 .paragraphe{
     display: flex;
@@ -45,10 +48,15 @@
     text-align: justify;
     
 }
+.leftConteneur{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 .presentationSecond{
     display: flex;
     flex-direction:row;
-    width: 100%;
+    width: 96%;
     height: 100%;
     justify-content: center;
   
@@ -59,6 +67,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    white-space: normal;
 }
 .mainpage strong{
     color: black;
@@ -85,13 +94,24 @@
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    width: 40%;
+    width: 42%;
     font-family: lobster;
-    font-size: 1em;
+    font-size: 1.4em;
+    text-align: justify;
+   
+    margin-right: 5%;
+}
+.presentationText3{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 80%;
+    font-family: lobster;
+    font-size: 1.4em;
     text-align: justify;
     margin:1%;
 }
-
 }
 @media only screen and (max-width: 600px){
     .presentationText{
@@ -132,6 +152,7 @@
         font-family: lobster;
         font-size: 1em;
         margin: 2%;
+        white-space: normal;
     }
     .presentationPicSecond{
         width: 80%;

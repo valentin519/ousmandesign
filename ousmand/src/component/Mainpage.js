@@ -60,9 +60,9 @@ class Mainpage extends Component {
                     </div>
                     <h2>« Ousman O. » et les Objectifs de Développement Durable (ODD-2030) de l’O.N.U.</h2>
                     <div className='presentationSecond'> 
-                        
+                       <div className='leftConteneur'> 
                         <Slide bottom> 
-                            <div className='presentationText2'>
+                            <div className='presentationText3'>
                                 <h3>Produire autrement pour consommer autrement .</h3>
                                 <p>
                                 Pour <strong>Ousmane Ouedraogo</strong>, concevoir des vêtements, des accessoires, les fabriquer implique d’utiliser des <strong>matières premières africaines, amérindiennes, sud-américaines respectueuses de l’environnement </strong>(coton biologique, teinture végétales, chanvre, laine artisanale d’Alpaga…).
@@ -71,18 +71,19 @@ class Mainpage extends Component {
                             </div>      
                         </Slide> 
                         <Slide bottom> 
-                            <div className='presentationText2'>
+                            <div className='presentationText3'>
                                 <h3>Soutenir l’entreprenariat social et le commerce équitable.</h3>
                                 <p>
                                 Il s’agit aussi de <strong>soutenir</strong> ainsi le travail d’artisans et de <strong>coopératives de femmes dans différents pays </strong>(Mali, Burkina, Mauritanie...) en contribuant à leur développement mais aussi à la pérennité d’un <strong> savoir-faire ancestral </strong>, une richesse culturelle et artistique fédératrice et source de fierté.
                                 </p>
                             </div>      
                         </Slide> 
+                        </div>  
                         <Slide bottom> 
                             <div className='presentationText2'>
                                 <h3>Favoriser la création et l’entreprenariat créatif et culturel.</h3>
                                 <p>
-                                La préoccupation d’<strong>Ousmane Ouedraogo</strong> est non seulement de promouvoir ses productions mais plus largement le travail de création de <strong>jeunes designers </strong>n’ayant pas accès aux mêmes opportunités (visibilité médias, ouverture aux marchés européens et nord-américains…). C’est ainsi qu’<strong>Ousmane</strong> est à l'origine du "<strong>Concours des Jeunes Designers de Mode Francophones</strong>" avec un premier défilé de clôture à l’<strong>automne 2019 </strong>aet une seconde édition en préparation pour le <strong>printemps 2021</strong>. Il s’agit bien de valoriser le travail de création et soutenir de <strong>jeunes entrepreneurs dans la mode, la culture, créateurs de valeur, créateurs de richesse</strong>. 
+                                La préoccupation d’<strong>Ousmane Ouedraogo</strong> est non seulement de promouvoir ses productions mais plus largement le travail de création de <strong>jeunes designers </strong>n’ayant pas accès aux mêmes opportunités (visibilité médias, ouverture aux marchés européens et nord-américains…). C’est ainsi qu’<strong>Ousmane</strong> est à l'origine du "<a href='https://www.facebook.com/fashionweek.francophonie/ '>Concours des Jeunes Designers de Mode Francophones</a>" avec un premier défilé de clôture à l’<strong>automne 2019 </strong>aet une seconde édition en préparation pour le <strong>printemps 2021</strong>. Il s’agit bien de valoriser le travail de création et soutenir de <strong>jeunes entrepreneurs dans la mode, la culture, créateurs de valeur, créateurs de richesse</strong>. 
                                 </p>
                             </div>      
                         </Slide> 
