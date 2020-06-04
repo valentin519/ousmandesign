@@ -90,7 +90,7 @@ class Mainpage extends Component {
                     </div>
                  
                     <Slide bottom> 
-                    <img className='presentationPicSecond' src='/mainpage.jpg' alt=''  /> 
+                    <img className='presentationPicSecond' src='/mainpagePic.jpg' alt='Modèle de création de Ousmane Ouedraogo'  /> 
                     </Slide>  
                 </div>
 )}}
