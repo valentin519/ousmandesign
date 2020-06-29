@@ -178,6 +178,40 @@ const CollectionWomen = () => (
                 <img src="/femme26.jpg" alt="Plein écran"/>
                 <img src="/femme26-2.jpg" alt="Plein écran"/>
             </a>
+            <a href="#femme27">
+                 <img src="/femme43-2.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay2" id="femme27">
+                <img src="/femme43.jpg" alt="Plein écran"/>
+                <img src="/femme43-2.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#femme28">
+                 <img src="/femme44.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay2" id="femme28">
+                <img src="/femme44.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#femme29">
+                 <img src="/femme45.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay2" id="femme29">
+                <img src="/femme45-2.jpg" alt="Plein écran"/>
+                <img src="/femme45-3.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#femme30">
+                 <img src="/femme46.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay2" id="femme30">
+                <img src="/femme46.jpg" alt="Plein écran"/>
+                <img src="/femme46-2.jpg" alt="Plein écran"/>
+            </a>
+            <a href="#femme31">
+                 <img src="/femme47.jpg" alt="Vignette" className='picCollectionWomen'/>
+            </a>
+            <a href="#_" class="overlay2" id="femme31">
+                <img src="/femme47.jpg" alt="Plein écran"/>
+                <img src="/femme47-2.jpg" alt="Plein écran"/>
+            </a>
         </div>
     </div>
 )
